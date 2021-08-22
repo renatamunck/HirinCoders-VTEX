@@ -1,0 +1,21 @@
+.searchBarIcon{
+    color: #79fd13;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group){
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #59ff00;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input){
+    color: #59ff00
+}
+
+.logoLink{
+    justify-content: center;
+}
+
+.productNameContainer{
+    color: white;
+}

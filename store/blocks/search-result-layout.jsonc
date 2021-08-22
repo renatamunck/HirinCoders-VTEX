@@ -1,0 +1,90 @@
+{
+    "search-result-layout.desktop#home": {
+      "children": [
+        "flex-layout.row#content"
+      ]
+    },
+    "search-result-layout.mobile#home":{
+      "children": [
+        "flex-layout.row#content"
+      ]
+    },
+    "flex-layout.row#content":{
+      "props": {
+        "marginTop": 3,
+        "marginBottom": 10
+      },
+      "children":[
+        "search-content",
+        "formleads"
+      ]
+    },
+    "search-result-layout.customQuery#corinthians": {
+      "props": {
+        "querySchema": {
+          "orderByField": "OrderByTopSaleDESC",
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 8,
+          "queryField": "corinthias",
+          "mapField": "ft"
+        },
+        "preventRouteChange": true
+      },
+      "blocks": [
+        "search-result-layout.desktop#home",
+        "search-result-layout.mobile#home",
+        "search-not-found-layout"
+      ]
+    },
+    "search-result-layout.customQuery#palmeiras": {
+      "props": {
+        "querySchema": {
+          "orderByField": "OrderByTopSaleDESC",
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 8,
+          "queryField": "palmeiras",
+          "mapField": "ft"
+        },
+        "preventRouteChange": true
+      },
+      "blocks": [
+        "search-result-layout.desktop#home",
+        "search-result-layout.mobile#home",
+        "search-not-found-layout"
+      ]
+    },
+    "search-result-layout.customQuery#promo": {
+      "props": {
+        "querySchema": {
+          "orderByField": "OrderByTopSaleDESC",
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 8,
+          "queryField": "153",
+          "mapField": "productClusterIds"
+        },
+        "preventRouteChange": true
+      },
+      "blocks": [
+        "search-result-layout.desktop#home",
+        "search-result-layout.mobile#home",
+        "search-not-found-layout"
+      ]
+    },
+    "search-result-layout.customQuery#signos": {
+      "props": {
+        "querySchema": {
+          "orderByField": "OrderByTopSaleDESC",
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 8,
+          "queryField": "156",
+          "mapField": "productClusterIds"
+        },
+        "preventRouteChange": true
+      },
+      "blocks": [
+        "search-result-layout.desktop#home",
+        "search-result-layout.mobile#home",
+        "search-not-found-layout"
+      ]
+    }
+  }
